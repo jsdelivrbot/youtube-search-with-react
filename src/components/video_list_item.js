@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function VideoListItem({video, onVideoSelect}) {
-  // const video = props.video; is equal to {video} - pattern matching
+  // const video = props.video; is equal to {video}
   const imgUrl = video.snippet.thumbnails.default.url;
 
   return (
